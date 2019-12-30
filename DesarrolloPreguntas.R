@@ -6,5 +6,6 @@ length(ejemplos)
 #Se utiliza el comando table con el fin de realizar una tabulación de datos con su frecuencia asociada a los elementos aleatorios generados.
 table(ejemplos)
 #Ejercicio 2:
-set.seed(10)
+set.seed(1)
 ejemplos = sample(c("positivo","negativo","neutros"), 10, replace = TRUE)
+table(ejemplos)
