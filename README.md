@@ -21,7 +21,7 @@ variable.
 
 replace = ¿Se presentan repeticiones en los números?
 
-# Se utiliza **lenght** para determinar la dimensión del vector corroborando que existan 100 elementos en la lista de la variable.
+Se utiliza **lenght** para determinar la dimensión del vector corroborando que existan 100 elementos en la lista de la variable.
 
 ***Ejercicio 1:***
 
@@ -32,9 +32,11 @@ table(ejemplos)
 De esta forma al ejecutar el comando ejemplos = sample(c("positivo", "negativo", "neutros"), 100, replace = TRUE) y luego el script es posible contar la cantidad de elementos de cada tipo existente en la muestra dada.
 
 ***Ejercicio 2:***
+
 Al correr el comando ejemplos = sample(c("positivo","negativo","neutros"), 10, replace = TRUE) de forma reiterada, se generará una variable con elementos aleatorios variando el contenido de la muestra cada vez, sin embargo al utilizar el comando set.seed() de forma previa, los elementos de la muestra se mantienen estáticos. 
 
-***Ejercicio 3***
+***Ejercicio 3:***
+
 Al ejecutar el comando set.seed(66) previo a ejemplos sample(c("positivo","negativo","neutros"), 66, replace = TRUE) se genera un resultado asignando a los elementos los siguientes valores contados: negativo= 20, neutros 20 y positivo 26, lo que se ve reflejado a través de la función table(ejemplos).
 
 ¿Qué impacto tendría si se consideran o no los neutros como resultado sobre una crisis económica?
